@@ -1,0 +1,27 @@
+table.dataTable thead > tr > th:nth-child(5).dt-orderable-asc span.dt-column-order:before,
+table.dataTable thead > tr > th:nth-child(5).dt-ordering-asc span.dt-column-order:before,
+table.dataTable thead > tr > td:nth-child(5).dt-orderable-asc span.dt-column-order:before,
+table.dataTable thead > tr > td:nth-child(5).dt-ordering-asc span.dt-column-order:before, 
+table.dataTable thead > tr > th:nth-child(6).dt-orderable-asc span.dt-column-order:before,
+table.dataTable thead > tr > th:nth-child(6).dt-ordering-asc span.dt-column-order:before,
+table.dataTable thead > tr > td:nth-child(6).dt-orderable-asc span.dt-column-order:before,
+table.dataTable thead > tr > td:nth-child(6).dt-ordering-asc span.dt-column-order:before {
+display: none;
+}
+table.dataTable thead > tr > th:nth-child(5).dt-orderable-asc span.dt-column-order:after,
+table.dataTable thead > tr > th:nth-child(5).dt-ordering-asc span.dt-column-order:after,
+table.dataTable thead > tr > td:nth-child(5).dt-orderable-asc span.dt-column-order:after,
+table.dataTable thead > tr > td:nth-child(5).dt-ordering-asc span.dt-column-order:after, 
+table.dataTable thead > tr > th:nth-child(6).dt-orderable-asc span.dt-column-order:after,
+table.dataTable thead > tr > th:nth-child(6).dt-ordering-asc span.dt-column-order:after,
+table.dataTable thead > tr > td:nth-child(6).dt-orderable-asc span.dt-column-order:after,
+table.dataTable thead > tr > td:nth-child(6).dt-ordering-asc span.dt-column-order:after {
+display: none;
+}
+table.dataTable thead > tr > th:nth-child(5),
+table.dataTable thead > tr > td:nth-child(5),
+table.dataTable thead > tr > th:nth-child(6),
+table.dataTable thead > tr > td:nth-child(6) {
+  cursor: default;
+  pointer-events: none;
+}

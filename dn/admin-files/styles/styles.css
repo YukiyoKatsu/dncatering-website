@@ -1,0 +1,307 @@
+:root{
+    --body-bg: white;
+    --nav-bg: #B78628;
+
+    --animation-scale-down: scaleDown 0.1s;
+    --ease-squish-3: cubic-bezier(0.645, 0.045, 0.355, 1);
+    --animation-slide-in-up: slideInUp 0.1s;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat";
+}
+::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+}
+::-webkit-scrollbar-track {
+    background: none; /* color of the tracking area */
+}
+::-webkit-scrollbar-thumb {
+    background: #888; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* color of the scroll thumb on hover */
+}
+nav.leftnavbar {
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    background-color: #B78628;
+    position: sticky;
+    top: 0;
+    max-height: 100svh;
+}
+nav.leftnavbar img{
+    width: 70px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav.leftnavbar a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+button.logOut{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    background: none;
+    border: 0;
+    width: 100%;
+}
+nav.leftnavbar a ,nav.leftnavbar svg{
+    color: white;
+    fill: white;
+}
+.nav-list{
+    display: grid;
+    gap: 20px;
+    list-style: none;
+    padding-block: 2rem;
+}
+.options{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-list li{
+    padding: 10px 15px;
+    margin-left: 10%;
+    border-radius: 100vw 0 0 100vw;
+}
+.nav-list li:hover{
+    background: #e0a028;
+    transition: .5s;
+}
+.nav-list li.active, 
+nav.leftnavbar a.active, 
+nav.leftnavbar svg.active{
+    background: var(--body-bg);
+    position: relative;
+    view-transition-name: activeNavTab;
+    color: #3F3F3F;
+    fill: #3F3F3F;
+}
+::view-transition-group(activeNavTab){
+    animation-duration: 500ms;
+    animation-timing-function: ease-in-out;
+}
+.nav-list li:nth-child(1) a{
+    view-transition-name: navLink-1;
+}
+.nav-list li:nth-child(2) a{
+    view-transition-name: navLink-2;
+}
+.nav-list li:nth-child(3) a{
+    view-transition-name: navLink-3;
+}
+.nav-list li.active::before,
+.nav-list li.active::after{
+    --border-radius: 1rem;
+
+    content: '';
+    position: absolute;
+    width: var(--border-radius);
+    height: var(--border-radius);
+    right: 0;
+    background: var(--nav-bg);
+    border-radius: 100vw;
+}
+.nav-list li.active::before{
+    top: calc(var(--border-radius) * -1);
+    border-radius: 0 0 100vw 0;
+    box-shadow:  5px 5px 0 3px var(--body-bg);
+}
+.nav-list li.active::after{
+    bottom: calc(var(--border-radius) * -1);
+    border-radius: 0 100vw 0 0;
+    box-shadow:  5px -5px 0 3px var(--body-bg);
+}
+body{
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    gap: 70px;
+    min-height: 100vh;
+    background: var(--body-bg);
+}
+main{
+    margin-right: 70px;
+}
+.headerMain{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.hiAdmin{
+    color: #3F3F3F;
+    font-size: 20px;
+}
+.headerMain .title{
+    color: #B78628;
+    font-size: 20px;
+    font-style: italic;
+}
+h1.pagetitle{
+    display: flex;
+    color: #B78628;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+.center-checkbox{
+    text-align: center;
+}
+
+/*===============Data Table==================*/
+.showOtherDetails{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #3F3F3F;
+    font-weight: bold;
+    color: #FCC201;
+    padding: 5px;
+}
+.deleteButton{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #b90707;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+.deleteButton:hover{
+    background-color: #e40a0a;
+    transition: 0.3s;
+}
+@keyframes scaleDown {
+    0% { transform: scale(1); }
+    100% { transform: scale(0); }
+}
+
+@keyframes slideInUp {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(0); }
+}
+.showOtherDetails:hover{
+    background-color: #7A591B;
+    color: #FCC201;
+    transition: 0.3s;
+}
+.otherDetailsDialog {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+}
+.otherDetailsDialog[open]{
+    animation: var(--animation-slide-in-up) forwards;
+}
+.otherDetailsDialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+.dialogHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.headerCustomerName{
+    font-size: 12px;
+    font-weight: bold;
+    color: #B78628;
+    font-style: italic;
+}
+.closeDialog{
+    background: none;
+    border: none;
+}
+.detailDivider{
+    display: flex;
+    font-size: 15px;
+    color: #3F3F3F;
+}
+.detailDivider .infoTitle{
+    font-weight: bold;
+}
+.otherInformation{
+    padding: 10px 10px 10px 0;
+    max-height: 200px;
+    overflow-x: auto;
+    width: 100%;
+    text-align: justify;
+    margin: 10px 0 20px 0;
+}
+/*===============End of Data Table==================*/
+
+/* .headline{
+    margin-top: 10px;
+    height: 1px;
+    background-color: #3F3F3F;
+} */
+
+.uploadFiles_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0px 1px 4px rgb(0 0 0 / 52%);
+    max-width: 400px;
+    margin: auto;
+}
+.uploadFiles_button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.uploadFiles_button[type="file"] {
+    padding: 5px;
+    border: 5px solid #3f3f3f;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.uploadFiles_button[type="file"]::-webkit-file-upload-button{
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: #3F3F3F;
+    padding: 5px 15px;
+}
+.uploadFiles_button[type="submit"] {
+    background-color: #B78628;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 50%;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+.uploadFiles_button[type="submit"]:hover {
+    background-color: #7A591B;
+}

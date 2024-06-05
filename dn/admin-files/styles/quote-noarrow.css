@@ -1,0 +1,27 @@
+table.dataTable thead > tr > th:nth-child(8).dt-orderable-asc span.dt-column-order,
+table.dataTable thead > tr > th:nth-child(8).dt-ordering-asc span.dt-column-order,
+table.dataTable thead > tr > td:nth-child(8).dt-orderable-asc span.dt-column-order,
+table.dataTable thead > tr > td:nth-child(8).dt-ordering-asc span.dt-column-order, 
+table.dataTable thead > tr > th:nth-child(7).dt-orderable-asc span.dt-column-order,
+table.dataTable thead > tr > th:nth-child(7).dt-ordering-asc span.dt-column-order,
+table.dataTable thead > tr > td:nth-child(7).dt-orderable-asc span.dt-column-order,
+table.dataTable thead > tr > td:nth-child(7).dt-ordering-asc span.dt-column-order {
+display: none;
+}
+table.dataTable thead > tr > th:nth-child(8).dt-orderable-asc span.dt-column-order,
+table.dataTable thead > tr > th:nth-child(8).dt-ordering-asc span.dt-column-order,
+table.dataTable thead > tr > td:nth-child(8).dt-orderable-asc span.dt-column-order,
+table.dataTable thead > tr > td:nth-child(8).dt-ordering-asc span.dt-column-order, 
+table.dataTable thead > tr > th:nth-child(7).dt-orderable-asc span.dt-column-order,
+table.dataTable thead > tr > th:nth-child(7).dt-ordering-asc span.dt-column-order,
+table.dataTable thead > tr > td:nth-child(7).dt-orderable-asc span.dt-column-order,
+table.dataTable thead > tr > td:nth-child(7).dt-ordering-asc span.dt-column-order {
+display: none;
+}
+table.dataTable thead > tr > th:nth-child(8),
+table.dataTable thead > tr > td:nth-child(8), 
+table.dataTable thead > tr > th:nth-child(7),
+table.dataTable thead > tr > td:nth-child(7){
+  cursor: default;
+  pointer-events: none;
+}
