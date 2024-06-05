@@ -1,0 +1,212 @@
+// RESET PRIMARY ID TO 1
+SET @num := 0;
+
+UPDATE customers_feedback SET id = @num := (@num+1);
+
+ALTER TABLE customers_feedback AUTO_INCREMENT =1;
+
+-------------------------------------------------------------------------------------
+
+NOTE: Any similarity to actual persons, living or dead is purely coincidental.
+
+LIST OF EXAMPLES FOR Customer's Feedback
+
+Rating: 5/5
+Kamila Doyle
+Experience: "The event was outstanding! Great organization, excellent speakers, and engaging activities. Definitely exceeded my expectations."
+
+Rating: 3/5
+Kashton Fry
+Experience: "The event had some interesting aspects, but there were a few logistical issues that impacted my experience. Overall, it was decent."
+
+Rating: 4/5
+Clarissa Lu
+Experience: "I thoroughly enjoyed the event. The venue was beautiful, the food was delicious, and the presentations were informative. Only minor improvements needed."
+
+Rating: 2/5
+Duncan Todd
+Experience: "Unfortunately, the event fell short of my expectations. The speakers were uninspiring, and the overall atmosphere was dull. Disappointing."
+
+Rating: 5/5
+Zariah Hawkins
+Experience: "Wow! What an incredible event! From start to finish, everything was perfect. The speakers were inspiring, and the networking opportunities were invaluable."
+
+Rating: 3/5
+Victor Calderon
+Experience: "The event was okay. While there were some interesting sessions, I felt like it lacked cohesion. It could have been better organized."
+
+Rating: 4/5
+Serena Rubio
+Experience: "Overall, I had a good time at the event. The topics discussed were relevant, and I appreciated the effort put into making it engaging. A few minor hiccups, but nothing major."
+
+Rating: 2/5
+Titan Richardson
+Experience: "I was quite disappointed with the event. The content felt outdated, and the speakers were not engaging. Wouldn't attend again."
+
+Rating: 5/5
+Allison Patton
+Experience: "Absolutely fantastic event! The energy was contagious, and I left feeling inspired and motivated. Kudos to the organizers for a job well done."
+
+Rating: 3/5
+Moises Arroyo
+Experience: "The event had its ups and downs. Some sessions were informative, while others felt like a waste of time. It was an average experience."
+
+Rating: 4/5
+Kyra Carey
+Experience: "I enjoyed the event overall. The venue was nice, and I learned a few valuable insights. There were a couple of technical glitches, but nothing major."
+
+Rating: 2/5
+Watson Douglas
+Experience: "I was disappointed with the event. It lacked substance, and the activities were poorly planned. Not worth the time."
+
+Rating: 5/5
+Aniyah McLean
+Experience: "One of the best events I've attended! The speakers were phenomenal, and I learned so much. Can't wait for the next one!"
+
+Rating: 3/5
+Crosby Bridges
+Experience: "The event was decent, but it didn't leave a lasting impression. The topics covered were interesting, but the execution could have been better."
+
+Rating: 4/5
+Elora Keller
+Experience: "Overall, I had a positive experience at the event. The sessions were informative, and I appreciated the networking opportunities. A few minor improvements would make it even better."
+
+Rating: 2/5
+Nico Carson
+Experience: "I had high hopes for the event, but it failed to meet expectations. The content was mediocre, and I didn't gain much value from attending."
+
+Rating: 5/5
+Nalani Hahn
+Experience: "Absolutely loved the event! It was well-organized, the speakers were engaging, and I walked away feeling inspired and empowered."
+
+Rating: 3/5
+Kabir Todd
+Experience: "The event had its moments, but it lacked cohesion. Some sessions were excellent, while others felt disconnected. Overall, an average experience."
+
+Rating: 4/5
+Zariah Carr
+Experience: "I had a good time at the event. The topics were relevant, and I appreciated the effort put into the presentations. A few minor improvements could enhance the experience."
+
+Rating: 2/5
+Kash Cherry
+Experience: "Disappointing event. The content was dull, and the speakers lacked enthusiasm. Wouldn't recommend."
+
+Rating: 5/5
+Nyomi Vargas
+Experience: "Outstanding event! The organizers did a fantastic job of bringing together relevant topics and engaging speakers. I left feeling inspired and motivated."
+
+Rating: 3/5
+Ryker Burke
+Experience: "The event was okay. Some sessions were interesting, but overall, it lacked excitement. It felt like something was missing."
+
+Rating: 4/5
+Vera Spencer
+Experience: "Overall, a positive experience. The event was informative, and I enjoyed the networking opportunities. A few minor improvements could make it even better."
+
+Rating: 2/5
+Ace Medina
+Experience: "I was underwhelmed by the event. The content was lackluster, and I didn't feel engaged. Not worth the time."
+
+Rating: 5/5
+Elliana Lugo
+Experience: "One of the best events I've attended! The speakers were top-notch, and I learned a lot. Can't wait for the next one!"
+
+Rating: 3/5
+Santos Hansen
+Experience: "The event was decent, but it didn't exceed my expectations. Some sessions were interesting, but others felt irrelevant. Average experience overall."
+
+Rating: 4/5
+Hope Adkins
+Experience: "I had a good time at the event. The topics were diverse, and I appreciated the opportunity to learn from industry experts. A few minor hiccups, but nothing major."
+
+Rating: 2/5
+Kylo Valentine
+Experience: "I was disappointed with the event. The content felt outdated, and the speakers were uninspiring. Wouldn't attend again."
+
+Rating: 5/5
+August Bartlett
+Experience: "Fantastic event! The speakers were engaging, the topics were relevant, and the networking opportunities were invaluable. Can't wait for next year!"
+
+Rating: 3/5
+Kace Hopkins
+Experience: "The event was okay. While there were some interesting sessions, I felt like it lacked excitement. Average experience overall."
+
+Rating: 4/5
+Gabriela Villegas
+Experience: "Overall, I had a positive experience at the event. The speakers were knowledgeable, and I learned a lot. A few minor improvements could enhance the overall experience."
+
+Rating: 2/5
+Clyde Harmon
+Experience: "I was disappointed with the event. The content was not what I expected, and I didn't feel like I gained much value from attending."
+
+Rating: 5/5
+Maren Michael
+Experience: "Absolutely loved the event! It was well-organized, the speakers were fantastic, and I left feeling inspired and motivated."
+
+Rating: 3/5
+Bronson Campos
+Experience: "The event was decent, but it didn't fully meet my expectations. Some sessions were interesting, but others felt repetitive. Average experience overall."
+
+Rating: 4/5
+Sutton Bennett
+Experience: "I had a good time at the event. The topics were relevant, and I appreciated the effort put into organizing it. A few minor improvements could enhance the overall experience."
+
+Rating: 2/5
+Leonardo Mullins
+Experience: "Disappointing event. The content was not engaging, and I didn't feel like I gained anything from attending."
+
+Rating: 5/5
+Maliyah Knapp
+Experience: "Outstanding event! The speakers were phenomenal, and I learned so much. Can't wait for the next one!"
+
+Rating: 3/5
+Boden Singleton
+Experience: "The event was okay. Some sessions were interesting, but overall, it lacked excitement. Average experience overall."
+
+Rating: 4/5
+Malaysia Chambers
+Experience: "Overall, a positive experience. The event was informative, and I enjoyed the networking opportunities. A few minor improvements could enhance the overall experience."
+
+Rating: 2/5
+Orion Barnett
+Experience: "I was disappointed with the event. The content was not what I expected, and I didn't feel like I gained much value from attending."
+
+Rating: 5/5
+Harlow Santos
+Experience: "Fantastic event! The speakers were engaging, the topics were relevant, and the networking opportunities were invaluable. Can't wait for next year!"
+
+Rating: 3/5
+Walker Casey
+Experience: "The event was okay. While there were some interesting sessions, I felt like it lacked excitement. Average experience overall."
+
+Rating: 4/5
+Sylvia Rogers
+Experience: "I had a good time at the event. The topics were relevant, and I appreciated the effort put into organizing it. A few minor improvements could enhance the overall experience."
+
+Rating: 2/5
+Colton Lynn
+Experience: "Disappointing event. The content was not engaging, and I didn't feel like I gained anything from attending."
+
+Rating: 5/5
+Samira Knox
+Experience: "Outstanding event! The speakers were phenomenal, and I learned so much. Can't wait for the next one!"
+
+Rating: 3/5
+Valentin Wilkins
+Experience: "The event was okay. Some sessions were interesting, but overall, it lacked excitement. Average experience overall."
+
+Rating: 4/5
+Amalia Holmes
+Experience: "Overall, a positive experience. The event was informative, and I enjoyed the networking opportunities. A few minor improvements could enhance the overall experience."
+
+Rating: 2/5
+King Lim
+Experience: "I was disappointed with the event. The content was not what I expected, and I didn't feel like I gained much value from attending."
+
+Rating: 5/5
+Giavanna McIntosh
+Experience: "Fantastic event! The speakers were engaging, the topics were relevant, and the networking opportunities were invaluable. Can't wait for next year!"
+
+Rating: 3/5
+Kristian Castaneda
+Experience: "The event was okay. While there were some interesting sessions, I felt like it lacked excitement. Average experience overall."

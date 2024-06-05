@@ -1,0 +1,236 @@
+// RESET PRIMARY ID TO 1
+SET @num := 0;
+
+UPDATE inquiry SET id = @num := (@num+1);
+
+ALTER TABLE inquiry AUTO_INCREMENT =1;
+
+-------------------------------------------------------------------------------------
+
+NOTE: Any similarity to actual persons, living or dead is purely coincidental.
+
+LIST OF EXAMPLES FOR INQUIRY
+First Name: John
+Middle Name:
+Last Name: Smith
+Email: john.smith@email.com
+Phone No.: 123-456-7890
+Date:
+Event Type: Wedding
+Other Details: I'm interested in hosting my wedding ceremony and reception at your venue. Please provide information on available dates, packages, and any catering options.
+
+First Name: Emily
+Middle Name: Anne
+Last Name: Johnson
+Email: emily.johnson@email.com
+Phone No.: 456-789-0123
+Date:
+Event Type: Birthday Party
+Other Details: I'm considering your venue for my daughter's 10th birthday party. Could you please send me information on pricing, capacity, and any available themes?
+
+First Name: David
+Middle Name:
+Last Name: Brown
+Email: david.brown@email.com
+Phone No.: 789-012-3456
+Date:
+Event Type: Debut
+Other Details: I'm interested in hosting my debut party at your venue. Please provide details on rental rates, available dates, and any restrictions on decorations.
+
+First Name: Sarah
+Middle Name: Elizabeth
+Last Name: Davis
+Email: sarah.davis@email.com
+Phone No.: 012-345-6789
+Date:
+Event Type: Baptism
+Other Details: I'm considering your venue for my son's baptism celebration. Can you please send me information on pricing, available dates, and any additional services you offer?
+
+First Name: Michael
+Middle Name:
+Last Name: Wilson
+Email: michael.wilson@email.com
+Phone No.: 345-678-9012
+Date:
+Event Type: Adult Party
+Other Details: I'm interested in hosting a private party at your venue. Please provide details on rental rates, capacity, and any restrictions on alcohol service.
+
+First Name: Jessica
+Middle Name: Lynn
+Last Name: Miller
+Email: jessica.miller@email.com
+Phone No.: 678-901-2345
+Date:
+Event Type: Wedding
+Other Details: I'm considering your venue for my wedding reception. Could you please send me information on pricing, available dates, and any recommended vendors?
+
+First Name: Daniel
+Middle Name:
+Last Name: Taylor
+Email: daniel.taylor@email.com
+Phone No.: 901-234-5678
+Date:
+Event Type: Others
+Other Details: I'm interested in hosting a corporate event at your venue. Please provide details on rental rates, available dates, and any audiovisual equipment available.
+
+First Name: Amanda
+Middle Name:
+Last Name: White
+Email: amanda.white@email.com
+Phone No.: 234-567-8901
+Date:
+Event Type: Birthday Party
+Other Details: I'm considering your venue for my husband's surprise birthday party. Can you please send me information on pricing, capacity, and any catering options?
+
+First Name: Christopher
+Middle Name:
+Last Name: Martinez
+Email: christopher.martinez@email.com
+Phone No.: 567-890-1234
+Date:
+Event Type: Baptism
+Other Details: I'm interested in hosting my daughter's baptism celebration at your venue. Please provide details on rental rates, available dates, and any decoration guidelines.
+
+First Name: Lauren
+Middle Name:
+Last Name: Harris
+Email: lauren.harris@email.com
+Phone No.: 890-123-4567
+Date:
+Event Type: Debut
+Other Details: I'm considering your venue for my debut party. Could you please send me information on pricing, available dates, and any preferred vendors?
+
+First Name: Matthew
+Middle Name:
+Last Name: Thompson
+Email: matthew.thompson@email.com
+Phone No.: 123-456-7890
+Date:
+Event Type: Adult Party
+Other Details: I'm interested in hosting a milestone birthday party at your venue. Please provide details on rental rates, capacity, and any music/DJ options available.
+
+First Name: Olivia
+Middle Name: Grace
+Last Name: Clark
+Email: olivia.clark@email.com
+Phone No.: 456-789-0123
+Date:
+Event Type: Wedding
+Other Details: I'm considering your venue for my wedding ceremony. Can you please send me information on pricing, available dates, and any accommodation options for guests?
+
+First Name: Ethan
+Middle Name:
+Last Name: Ramirez
+Email: ethan.ramirez@email.com
+Phone No.: 789-012-3456
+Date:
+Event Type: Others
+Other Details: I'm interested in hosting a charity fundraiser at your venue. Please provide details on rental rates, available dates, and any audiovisual equipment for presentations.
+
+First Name: Sophia
+Middle Name:
+Last Name: King
+Email: sophia.king@email.com
+Phone No.: 012-345-6789
+Date:
+Event Type: Birthday Party
+Other Details: I'm considering your venue for my son's superhero-themed birthday party. Can you please send me information on pricing, available dates, and any entertainment options?
+
+First Name: Benjamin
+Middle Name:
+Last Name: Scott
+Email: benjamin.scott@email.com
+Phone No.: 345-678-9012
+Date:
+Event Type: Baptism
+Other Details: I'm interested in hosting my daughter's baptism celebration at your venue. Please provide details on rental rates, available dates, and any catering options.
+
+First Name: Ava
+Middle Name: Marie
+Last Name: Turner
+Email: ava.turner@email.com
+Phone No.: 678-901-2345
+Date:
+Event Type: Debut
+Other Details: I'm considering your venue for my debut party. Could you please send me information on pricing, available dates, and any decoration options?
+
+First Name: Noah
+Middle Name:
+Last Name: Mitchell
+Email: noah.mitchell@email.com
+Phone No.: 901-234-5678
+Date:
+Event Type: Adult Party
+Other Details: I'm interested in hosting a themed costume party at your venue. Please provide details on rental rates, capacity, and any costume contest arrangements.
+
+First Name: Lily
+Middle Name:
+Last Name: Carter
+Email: lily.carter@email.com
+Phone No.: 234-567-8901
+Date:
+Event Type: Wedding
+Other Details: I'm considering your venue for my wedding reception. Can you please send me information on pricing, available dates, and any floral decoration options?
+
+First Name: Jacob
+Middle Name:
+Last Name: Ward
+Email: jacob.ward@email.com
+Phone No.: 567-890-1234
+Date:
+Event Type: Others
+Other Details: I'm interested in hosting a company retreat at your venue. Please provide details on rental rates, available dates, and any team-building activities offered.
+
+First Name: Mia
+Middle Name:
+Last Name: Foster
+Email: mia.foster@email.com
+Phone No.: 890-123-4567
+Date:
+Event Type: Birthday Party
+Other Details: I'm considering your venue for my daughter's princess-themed birthday party. Can you please send me information on pricing, available dates, and any princess character appearances?
+
+First Name: William
+Middle Name:
+Last Name: Ward
+Email: william.ward@email.com
+Phone No.: 123-456-7890
+Date:
+Event Type: Baptism
+Other Details: I'm interested in hosting my son's baptism celebration at your venue. Please provide details on rental rates, available dates, and any catering options.
+
+First Name: Chloe
+Middle Name:
+Last Name: Evans
+Email: chloe.evans@email.com
+Phone No.: 456-789-0123
+Date:
+Event Type: Debut
+Other Details: I'm considering your venue for my debut party. Could you please send me information on pricing, available dates, and any preferred vendors?
+
+First Name: Ethan
+Middle Name:
+Last Name: Martinez
+Email: ethan.martinez@email.com
+Phone No.: 789-012-3456
+Date:
+Event Type: Adult Party
+Other Details: I'm interested in hosting a cocktail party at your venue. Please provide details on rental rates, capacity, and any bar service options.
+
+First Name: Sophia
+Middle Name:
+Last Name: Collins
+Email: sophia.collins@email.com
+Phone No.: 012-345-6789
+Date:
+Event Type: Wedding
+Other Details: I'm considering your venue for my wedding ceremony and reception. Can you please send me information on pricing, available dates, and any photography services offered?
+
+First Name: Liam
+Middle Name:
+Last Name: Peterson
+Email: liam.peterson@email.com
+Phone No.: 345-678-9012
+Date:
+Event Type: Others
+Other Details: I'm interested in hosting a book launch event at your venue. Please provide details on rental rates, available dates, and any promotional support offered.
