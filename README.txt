@@ -2,7 +2,7 @@ Follow the procedure below to run the system:
 
 
 (If XAMPP is already downloaded and installed, skip this step) Download XAMPP:
-1. Click this link "https://www.youtube.com/watch?v=VCHXCusltqI" and follow the procedure.
+1. Click this link "https://www.youtube.com/watch?v=VCHXCusltqI" and follow the procedures.
 2. On completing the download of the setup file, begin the installation process and, in the “Select Components” section, select all the required components.
 3. Select the directory where you want the software to be installed. It is recommended that you keep the default directory “C:\xampp” and click on “next” to complete the installation.
 
@@ -22,3 +22,5 @@ Access User Page:
 
 Access Admin Page:
 1. On your web browser, search http://localhost/dn/admin.php 
+
+NOTE: (If you having error running MySQL click this link and follow the procedures. "https://www.youtube.com/watch?v=ipMedkjMupw"
