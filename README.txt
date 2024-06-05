@@ -2,13 +2,12 @@ Follow the procedure below to run the system:
 
 
 (If XAMPP is already downloaded and installed, skip this step) Download XAMPP:
-1. Under the "installers" folder, select "xampp" folder.
-2. Run the file you will see inside that folder.
-3. On completing the download of the setup file, begin the installation process and, in the “Select Components” section, select all the required components.
-4. Select the directory where you want the software to be installed. It is recommended that you keep the default directory “C:\xampp” and click on “next” to complete the installation.
+1. Click this link "https://www.youtube.com/watch?v=VCHXCusltqI" and follow the procedure.
+2. On completing the download of the setup file, begin the installation process and, in the “Select Components” section, select all the required components.
+3. Select the directory where you want the software to be installed. It is recommended that you keep the default directory “C:\xampp” and click on “next” to complete the installation.
 
 Run the system using XAMPP:
-1. Go to “C:\xampp\htdocs” and inside it paste the "dn" folder from "project-code-v1.0".
+1. Go to “C:\xampp\htdocs” and inside it paste the "dn" folder.
 2. Open the XAMPP control panel and start "Apache" and "MySQL" to host the local webserver.
 3. Under "MySQL" Module, click "Admin". It will transfer you to http://localhost/phpmyadmin/
 4. On the left side of the navigation bar, click "New".
